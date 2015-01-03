@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #753434;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -653,7 +653,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/Calendar_Brewery.jpg);
+    background-image: url(../img/puzzle.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
