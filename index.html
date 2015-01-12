@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
 
     <title>Hooper Photographic</title>
 
@@ -25,6 +26,8 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <pre class="prettyprint"><script type="text/javascript" src="http://jimhooper.tumblr.com/api/read/json"></script>
     </pre>
+    <!-- lightcase -->
+    <link rel="stylesheet" type="text/css" href="node_modules/lightcase/css/lightcase.css" media="screen">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -93,6 +96,8 @@
 
     
 
+    
+
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
@@ -133,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="wedding.html" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -341,6 +346,7 @@ single time I see it.  You both inspire me to be a better photographer, but more
 better person.  Words can’t express my sincere thanks to each of those who have supported me along 
 
 the way.</p>
+<a href="img/WeddingsEngagements/HP1_DSC_0893_edit.jpg" data-rel="lightcase"> <img class="img-responsive" src="img/WeddingsEngagements/HP1_DSC_0893_edit.jpg" alt=""></a>
 
 <p>And a special thanks to <a href="https://l4styk.github.io/">Lori Zanotta</a>, a fellow educator with whom I had the privilege to work at the 
 
@@ -440,8 +446,8 @@ help you showcase your own work online.  Thanks Lori!</p>
                             <!-- Project Details Go Here -->
                             <h2>Weddings</h2>
                             <p class="item-intro text-muted">“Marriage is like a golden ring in a chain, whose beginning is a glance and whose ending is eternity" ~ Kahlil Gibran</p>
-                            <img class="img-responsive" src="img/WeddingsEngagements/HP1_DSC_0893_edit.jpg" alt="">
-                            <img class="img-responsive" src="img/WeddingsEngagements/HP2_DSC_6918_web.jpg" alt="">
+                            <a href="img/WeddingsEngagements/HP1_DSC_0893_edit.jpg" data-rel="lightcase:group" title="wedding"> <img class="img-responsive" src="img/WeddingsEngagements/HP1_DSC_0893_edit.jpg" alt=""></a>
+                            <a href="img/WeddingsEngagements/HP2_DSC_6918_web.jpg" data-rel="lightcase:group" title="wedding"> <img class="img-responsive" src="img/WeddingsEngagements/HP2_DSC_6918_web.jpg" alt=""></a>
                             <img class="img-responsive" src="img/WeddingsEngagements/HP3_DSC_6955_web.jpg" alt="">
                             <img class="img-responsive" src="img/WeddingsEngagements/HP4_DSC_6968_web.jpg" alt="">
                             <img class="img-responsive" src="img/WeddingsEngagements/HP5_DSC_6982_web.jpg" alt="">
@@ -658,6 +664,7 @@ help you showcase your own work online.  Thanks Lori!</p>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -667,12 +674,17 @@ help you showcase your own work online.  Thanks Lori!</p>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- lightbox -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <script type="text/javascript" src="node_modules/lightcase/lightcase.js"></script> 
+    <script type="text/javascript"> $(document).ready(function($) { $('a[data-rel^=lightcase]').lightcase(); }); </script> 
+    <script type="text/javascript" src="node_modules/lightcase/jquery.events.swipe.js"></script> 
+    
 
 </body>
 
